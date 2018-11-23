@@ -31,7 +31,7 @@ document.getElementById("title");
 위와 같이 객체가 된 title은
 많은 키를 가진다.
  */
-title.item(1).innerHTML= "hu";
+title.item(0).innerHTML= "hu";
 /**
  위와 같이 innerHTML이라는 키는
  해당 객체의 태그에 안의 무언가로 바꾸는 기능이다.
@@ -41,4 +41,9 @@ title.item(1).innerHTML= "hu";
   우리는 DOM을 통해서 html을 제어할 수 있게 됐다.
 
   */
-
+/**
+ * 매번 item()을 사용해 첫번째 것을 찾기 귀찮다면
+ * 우리는 querySelector를 사용할 수 있다.
+ * 이것은 좀 더 편하게 첫 번째 것을 
+ * 셀렉트 할수있게 해준다.
+ */

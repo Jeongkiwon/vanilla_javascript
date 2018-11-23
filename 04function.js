@@ -33,4 +33,28 @@ sayHello("mo", 15);
 함수를 사용할 때마다 다른 이름을
 붙여서 Hello 할수있다.
 참고로 Hello와 name뒤에 , 를 빼면 에러가 난다.
+ 
+
+하지만 저것은 뭔가 섹시하지 않다.
+*/
+function sayHello(name, age){
+    console.log(`Hello! ${name} ${age}`);
+}
+sayHello("mo", 15);
+/*
+위와 같이 작성하면 더 섹시한 코드가 된다.
+*/
+
+/**
+ * Caculator를 만들어보자
  */
+const calculator = {
+    plus: function(a,b){
+        return a+b;
+    },
+    minus: function(a,b){
+        return a-b;
+    }
+}
+const A= calculator.plus(15,7);
+console.log(A);
